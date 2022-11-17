@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dars-50</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="form">
+        <input id="input" type="text" placeholder="pokemon name">
+        <button class="btn">Search</button>
+    </form>
+    <div class="pokemons"></div>
+    <template id="pokemon-template">
+        <div class="pokemon">
+            <span class="pokemon-id"></span>
+            <img class="pokemon-img" src="" alt="">
+            <h2 class="pokemon-name"></h2>
+            <ul class="pok-weak"></ul>
+        </div>
+    </template>
+    <script src="pokemons.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
